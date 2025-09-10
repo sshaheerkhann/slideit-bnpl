@@ -3,7 +3,7 @@
 client_id = "c0300c0a0c211d81d7361ab1275c973d"
 name = "slideit-bnpl"
 handle = "slideit-bnpl-3"
-application_url = "https://belfast-venue-ta-shock.trycloudflare.com"
+application_url = "https://slideit-bnpl.vercel.app/"
 embedded = true
 
 [build]
@@ -25,7 +25,7 @@ api_version = "2025-07"
 scopes = "write_products, write_orders"
 
 [auth]
-redirect_urls = ["https://belfast-venue-ta-shock.trycloudflare.com/auth/callback", "https://belfast-venue-ta-shock.trycloudflare.com/auth/shopify/callback", "https://belfast-venue-ta-shock.trycloudflare.com/api/auth/callback"]
+redirect_urls = ["https://slideit-bnpl.vercel.app//auth/callback", "https://slideit-bnpl.vercel.app//auth/shopify/callback", "https://slideit-bnpl.vercel.app//api/auth/callback"]
 
 [pos]
 embedded = false
